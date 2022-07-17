@@ -119,6 +119,10 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.icon-contact {
+  margin-right: 10px;
+  fill: currentColor;
+}
 
 /* logo */
 .logo {
@@ -155,7 +159,14 @@ img {
 
 /* section hero */
 .hero {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--dark-bg-cl);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
