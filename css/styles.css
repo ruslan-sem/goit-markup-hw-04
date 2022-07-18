@@ -1,7 +1,7 @@
 :root {
   /* fonts */
-  --main-font: "Roboto", sans-serif;
-  --secondary-font: "Raleway", sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 
   /* text colors */
   --main-txt-cl: #757575;
@@ -164,10 +164,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--dark-bg-cl);
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -451,7 +448,5 @@ img {
   /* margin-left: var(--card-gap);
     margin-top: var(--card-gap);
     flex-basis: calc(100% / var(--card-item) - var(--card-gap)); */
-  flex-basis: calc(
-    (100% - (var(--card-item) - 1) * var(--card-gap)) / var(--card-item)
-  );
+  flex-basis: calc((100% - (var(--card-item) - 1) * var(--card-gap)) / var(--card-item));
 }
